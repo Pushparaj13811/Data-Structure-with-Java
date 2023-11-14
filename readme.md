@@ -39,7 +39,7 @@ Feel free to explore the code, projects, and progress tracker. If you have any s
 
 Let's connect! If you're also on a DSA learning journey or have insights to share, feel free to reach out:
 
-- **Email:** 
+- **Email:** hmehtace@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/pushparaj1381-/
 
 Happy coding and learning!
