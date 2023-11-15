@@ -1,7 +1,5 @@
 public class floyds{
-    public static void main(String args[]){
-        int n = 5;
-        int num = 1;
+    public static void floyds_(int n, int num){
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
                 System.out.print(num);
@@ -9,5 +7,8 @@ public class floyds{
             }
             System.out.println();
         }
+    }
+    public static void main(String args[]){
+        floyds_(5, 1);
     }
 }
