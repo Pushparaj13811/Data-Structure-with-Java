@@ -261,7 +261,7 @@ public class functionBasic11 {
     - Printing Solid Rhombus pattern
     - Printing Hollo Rhombus pattern
     - Printing Diamond pattern 
-  - Arrays:
+- [] Arrays:
     - Introduction of array
     - How to create array ?
     - Array as function argument.
