@@ -250,8 +250,8 @@ public class functionBasic11 {
 ```
 
 ## Week 5 (In Progress):
-- [ ] Pattern Advance (Part-II)
-  - Solved questions including:
+- [x] Pattern Advance (Part-II)
+   - Solved questions including:
     - Printing Hollow rectangle pattern
     - Printing Inverted and rotated Half pyramid
     - Printing Inverted half pyramid with numbers
@@ -261,6 +261,15 @@ public class functionBasic11 {
     - Printing Solid Rhombus pattern
     - Printing Hollo Rhombus pattern
     - Printing Diamond pattern 
+  - Arrays:
+    - Introduction of array
+    - How to create array ?
+    - Array as function argument.
+    - Linear search
+    - Largest in array 
+    - Binary search 
+    - Reverse in array
+
 ### Coce Snippets:
 ```
 // Program to print Hollow rectangle 
