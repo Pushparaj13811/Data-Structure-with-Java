@@ -1,5 +1,6 @@
-package Arrays;
-
+/*
+ * Program to find whether the given item is available in the array or not using linear search.
+ */
 import java.util.*;
 
 public class menueLinearSearch {
