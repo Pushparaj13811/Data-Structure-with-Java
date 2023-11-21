@@ -249,7 +249,7 @@ public class functionBasic11 {
 }
 ```
 
-## Week 5 (In Progress):
+## Week 5 :
 - [x] Pattern Advance (Part-II)
    - Solved questions including:
     - Printing Hollow rectangle pattern
@@ -261,14 +261,6 @@ public class functionBasic11 {
     - Printing Solid Rhombus pattern
     - Printing Hollo Rhombus pattern
     - Printing Diamond pattern 
-- [] Arrays:
-    - Introduction of array
-    - How to create array ?
-    - Array as function argument.
-    - Linear search
-    - Largest in array 
-    - Binary search 
-    - Reverse in array
 
 ### Coce Snippets:
 ```
@@ -356,3 +348,14 @@ public class dimond {
 }
 
 ```
+## Week 6 (In Progress):
+- [x] Arrays:
+    - Introduction of array
+    - How to create array ?
+    - Array as function argument.
+    - Linear search
+    - Largest in array 
+    - Binary search 
+    - Reverse in array
+    - Maximum sum calculator using pairs in Array 
+    - Kadane's Algorithm
