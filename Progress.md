@@ -359,3 +359,88 @@ public class dimond {
     - Reverse in array
     - Maximum sum calculator using pairs in Array 
     - Kadane's Algorithm
+
+### Coce Snippets:
+```
+import java.util.*;
+
+public class pairsInArray {
+    public static void printPairs(int array[]) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            int current = array[i];
+            for (int j = i + 1; j < array.length; j++) {
+                System.out.print("(" + current + ", " + array[j] + ")");
+                count++;
+            }
+            System.out.println();
+        }
+        System.out.print("Total pairs are : " + count);
+    }
+
+    public static void input(int array[]) {
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print("Enter the value for [" + i + "] :- ");
+            array[i] = sc.nextInt();
+        }
+    }
+
+    public static void output(int array[]) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]+" ");
+        }
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value you want to create array of : ");
+        int value = sc.nextInt();
+        int array[] = new int[value];
+        input(array);
+        System.out.print("The array given by you is : ");
+        output(array);
+        System.out.println("\nPairs are : ");
+        printPairs(array);
+
+    }
+}
+
+```
+```
+/*
+ * Write a Java program to find the maximum sum of a subarray in a given integer array. Implement 
+ * the solution using Kadane's algorithm, which efficiently computes the maximum sum subarray in a 
+ * one-dimensional array.
+ */
+public class maxSumCalculatorWithKadanesAlgorithm {
+    public static void kadanes(int array[]) {
+        int ms = Integer.MIN_VALUE;
+        int cs = 0;
+        for (int i = 0; i < array.length; i++) {
+            cs = cs + array[i];
+            if (cs < 0) {
+                cs = 0;
+            }
+            if (cs > ms) {
+                ms = cs;
+            }
+        }
+        if (ms == 0) {
+            ms = Integer.MIN_VALUE;
+            for (int i = 0; i < array.length; i++) {
+                if (ms < array[i]) {
+                    ms = array[i];
+                }
+            }
+        }
+        System.out.println("Maximum sum of given array is : " + ms);
+    }
+
+    public static void main(String args[]) {
+        int numbers[] = { -2, -3, -4, -1, -2, -10, -5, -3 };
+        kadanes(numbers);
+    }
+}
+
+```
