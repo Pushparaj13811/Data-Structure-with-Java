@@ -1,3 +1,8 @@
+/*
+ * Question: Implement the bubble sort algorithm in Java to sort an array of integers in ascending order. 
+ * Include a function to print the sorted array. Use the array `{1, 2, 3, 5, 4}` as input and print the sorted array. 
+ * Additionally, print the number of swaps made in each pass.
+ */
 public class bubbleSort {
 
   public static void bubbleSortOfArray(int array[]) {
@@ -25,7 +30,7 @@ public class bubbleSort {
   }
 
   public static void main(String args[]) {
-    int numbers[] = { 1, 2, 3, 5, 4  };
+    int numbers[] = { 1, 2, 3, 5, 4 };
     bubbleSortOfArray(numbers);
     printArray(numbers);
   }
