@@ -348,7 +348,7 @@ public class dimond {
 }
 
 ```
-## Week 6 (In Progress):
+## Week 6:
 - [x] Arrays:
     - Introduction of array
     - How to create array ?
@@ -479,3 +479,7 @@ public class buySellStocks{
 }
 
 ```
+## Week 7 (In Progress):
+- [x] 2D-Arrays:
+    - Introduction, real life examples, representation of 2D-Array.
+    - Creating a 2D array, taking input, printing output, and searching for any given element. 
